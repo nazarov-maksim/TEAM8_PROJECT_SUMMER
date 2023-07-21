@@ -1,24 +1,8 @@
-# README
+Team 8: 
+Назаров Максим 
+Фолошня Костянтин
+Шородок Олексій
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Figma : https://www.figma.com/file/kJojldyswGBs6UjojVzUox/Cottage-Project-8?type=design&node-id=0%3A1&mode=design&t=UmSl875LjB4nQgwf-1
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+DB : https://erd.dbdesigner.net/designer/schema/1689516831-test1
