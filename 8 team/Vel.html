@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маленький будинок</title>
+
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2b3e50;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .content {
+        text-align: center;
+        max-width: 800px; 
+    }
+
+    .image {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .order-button {
+        padding: 10px 20px;
+        background-color: #1abc9c; 
+        color: #ffffff; 
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .navigation-buttons {
+        display: flex;
+        margin-top: 20px; 
+    }
+
+        .navigation-button {
+            flex: 1; 
+            padding: 8px 16px;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+        
+        .image {
+            width: 100%;
+            float: none;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Великий дім</h1>
+        <p>Ідеально підійде для тих хто хоче відпочити великою компанією до 10 людей. Ціна:1800грн/день</p>
+    </div>
+    <div class="image">
+        <img src="images/5.png" alt="Картинка" width="600" height="500">
+    </div>
+    <button class="order-button" onclick="window.location.href='zam.html'">Замовити</button>
+
+    <div class="navigation-buttons">
+        <button class="navigation-button" onclick="window.location.href='index.html'">Реєстріція</button>
+        <button class="navigation-button" onclick="window.location.href='main.html'">Головна</button>
+        <button class="navigation-button" onclick="window.location.href='mal.html'">Маленький</button>
+        <button class="navigation-button" onclick="window.location.href='Ser.html'">Середній</button>
+        <button class="navigation-button" onclick="window.location.href='Vel.html'">Великий</button>
+    
+    </div>
+
+</body> 
+</html>
